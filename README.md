@@ -16,7 +16,7 @@ O projeto **Educação Livre** é uma página web que conecta tutores voluntári
 
 ## ODS Selecionado
 
-![ODS 4](https://brasil.un.org/profiles/undg_country/themes/custom/undg/images/SDGs/pt-br/SDG-4.svg)
+<img src="https://brasil.un.org/profiles/undg_country/themes/custom/undg/images/SDGs/pt-br/SDG-4.svg" alt="ODS 4" width="300"/>
 
 ## Estrutura do Projeto
 
