@@ -1,0 +1,136 @@
+/* Estilos para dispositivos móveis */
+@media (max-width: 600px) {
+    header, footer {
+        padding: 10px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    main {
+        padding: 70px 10px;
+    }
+
+    section h1 {
+        font-size: 1.5em;
+    }
+
+    section p {
+        font-size: 1em;
+    }
+
+    section img {
+        width: 80%;
+        height: auto;
+    }
+
+    form {
+        padding: 10px;
+    }
+
+    input, textarea {
+        font-size: 1em;
+    }
+
+    button {
+        font-size: 1em;
+    }
+}
+
+/* Estilos para tablets */
+@media (min-width: 601px) and (max-width: 1024px) {
+    header, footer {
+        padding: 15px 30px;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li {
+        margin: 0 15px;
+    }
+
+    main {
+        padding: 85px 15px;
+    }
+
+    section h1 {
+        font-size: 2em;
+    }
+
+    section p {
+        font-size: 1.2em;
+    }
+
+    section img {
+        width: 70%;
+        height: auto;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    input, textarea {
+        font-size: 1.2em;
+    }
+
+    button {
+        font-size: 1.2em;
+    }
+}
+
+/* Estilos para desktops */
+@media (min-width: 1025px) {
+    header, footer {
+        padding: 20px 40px;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li {
+        margin: 0 20px;
+    }
+
+    main {
+        padding: 100px 20px;
+    }
+
+    section h1 {
+        font-size: 2.5em;
+    }
+
+    section p {
+        font-size: 1.5em;
+    }
+
+    section img {
+        width: 30%;
+        height: auto;
+    }
+
+    form {
+        padding: 20px;
+    }
+
+    input, textarea {
+        font-size: 1.5em;
+    }
+
+    button {
+        font-size: 1.5em;
+    }
+}
