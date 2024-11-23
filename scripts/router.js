@@ -6,7 +6,7 @@ function loadPage(page) {
         });
 }
 
-page.base('/');
+page.base('/educacao_livre');
 page('/', () => loadPage('home'));
 page('/tutor_register', () => loadPage('tutor_register'));
 page('/available_classes', () => loadPage('available_classes'));
