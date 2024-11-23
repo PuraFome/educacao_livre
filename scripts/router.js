@@ -10,11 +10,25 @@ function loadPage(page) {
         });
 }
 
-page.base('/educacao_livre'); // Define a base para o roteamento no GitHub Pages
-page('/', () => loadPage('home'));
-page('/tutor_register', () => loadPage('tutor_register'));
-page('/available_classes', () => loadPage('available_classes'));
+function router() {
+    const hash = window.location.hash || '#!/';
+    const route = hash.replace('#!/', '');
 
-page({
-    hashbang: true // Usa hash-based routing
-});
+    switch (route) {
+        case '':
+            loadPage('home');
+            break;
+        case 'tutor_register':
+            loadPage('tutor_register');
+            break;
+        case 'available_classes':
+            loadPage('available_classes');
+            break;
+        default:
+            loadPage('home');
+            break;
+    }
+}
+
+window.addEventListener('hashchange', router);
+window.addEventListener('load', router);
