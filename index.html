@@ -9,23 +9,14 @@
     <script src="https://unpkg.com/page/page.js"></script>
     <script src="scripts/router.js" defer></script>
     <script src="scripts/form.js" defer></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            var params = new URLSearchParams(window.location.search);
-            var redirect = params.get('redirect');
-            if (redirect) {
-                page.redirect(redirect);
-            }
-        });
-    </script>
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="/" data-navigo>Home</a></li>
-                <li><a href="/tutor_register" data-navigo>Cadastro de Tutor</a></li>
-                <li><a href="/available_classes" data-navigo>Aulas Disponíveis</a></li>
+                <li><a href="!/" data-navigo>Home</a></li>
+                <li><a href="#!/tutor_register" data-navigo>Cadastro de Tutor</a></li>
+                <li><a href="#!/available_classes" data-navigo>Aulas Disponíveis</a></li>
             </ul>
         </nav>
     </header>
