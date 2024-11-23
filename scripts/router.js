@@ -6,8 +6,11 @@ function loadPage(page) {
         });
 }
 
+page.base('/');
 page('/', () => loadPage('home'));
 page('/tutor_register', () => loadPage('tutor_register'));
 page('/available_classes', () => loadPage('available_classes'));
 
-page();
+page({
+    hashbang: true
+});
