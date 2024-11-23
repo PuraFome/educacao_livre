@@ -3,10 +3,12 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #ECF0F1;
+    color: #2C3E50;
 }
 
 header {
-    background-color: #f8f8f8;
+    background-color: #3498DB;
     padding: 10px 20px;
     text-align: center;
     position: fixed;
@@ -16,7 +18,7 @@ header {
 }
 
 footer {
-    background-color: #f8f8f8;
+    background-color: #3498DB;
     padding: 10px 20px;
     text-align: center;
 }
@@ -33,7 +35,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #FFFFFF;
 }
 
 main {
@@ -54,6 +56,10 @@ form {
     flex-direction: column;
     max-width: 600px;
     margin: 0 auto;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 label {
@@ -70,7 +76,7 @@ input, textarea {
 button {
     margin-top: 20px;
     padding: 10px;
-    background-color: #4CAF50;
+    background-color: #27AE60;
     color: white;
     border: none;
     border-radius: 4px;
@@ -78,7 +84,7 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #2ECC71;
 }
 
 .checkbox-group {
