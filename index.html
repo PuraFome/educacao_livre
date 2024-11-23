@@ -9,6 +9,15 @@
     <script src="https://unpkg.com/page/page.js"></script>
     <script src="scripts/router.js" defer></script>
     <script src="scripts/form.js" defer></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var params = new URLSearchParams(window.location.search);
+            var redirect = params.get('redirect');
+            if (redirect) {
+                page.redirect(redirect);
+            }
+        });
+    </script>
 </head>
 <body>
     <header>

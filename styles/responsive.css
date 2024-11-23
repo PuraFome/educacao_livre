@@ -16,7 +16,8 @@
     }
 
     main {
-        padding: 70px 10px;
+        padding: 10px;
+        padding-top: 160px;
     }
 
     section h1 {
@@ -28,7 +29,7 @@
     }
 
     section img {
-        width: 80%;
+        width: 50%;
         height: auto;
     }
 
@@ -73,7 +74,7 @@
     }
 
     section img {
-        width: 70%;
+        width: 40%;
         height: auto;
     }
 

@@ -81,4 +81,5 @@ Agora você pode acessar o projeto em [http://localhost:8080](http://localhost:8
 ## Integrantes da Equipe
 
 - José Samuel Pereira
+- [Linkedin](https://www.linkedin.com/in/jos%C3%A9-samuel-pereira-6890a9247/)
 
