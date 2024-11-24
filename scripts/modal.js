@@ -25,6 +25,7 @@ function openModal(index) {
 
 function registerForClass(index) {
     let tutors = JSON.parse(localStorage.getItem('tutors')) || [];
+    let registeredClasses = JSON.parse(localStorage.getItem('registeredClasses')) || [];
     if (tutors[index].slots > 0) {
         tutors[index].slots -= 1;
         localStorage.setItem('tutors', JSON.stringify(tutors));
@@ -43,19 +44,20 @@ function registerForClass(index) {
         } else {
             console.error(`Botão com ID register-${index} não encontrado`);
         }
+        registeredClasses.push(index);
+        localStorage.setItem('registeredClasses', JSON.stringify(registeredClasses));
     } else {
         const registerButton = document.getElementById(`register-${index}`);
         if (registerButton) {
             registerButton.disabled = true;
-            registerButton.style.backgroundColor = '#ccc'; // Muda a cor do botão
-            registerButton.style.color = '#000'; // Muda a cor do texto do botão
-            registerButton.innerText = 'Vagas Esgotadas'; // Muda o texto do botão
+            registerButton.style.backgroundColor = '#ccc'; 
+            registerButton.style.color = '#000';
+            registerButton.innerText = 'Vagas Esgotadas'; 
         } else {
             console.error(`Botão com ID register-${index} não encontrado`);
         }
     }
 }
 
-// Torne as funções globalmente acessíveis
 window.openModal = openModal;
 window.registerForClass = registerForClass;

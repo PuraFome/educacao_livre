@@ -1,8 +1,9 @@
 function loadAvailableClasses() {
     const tutors = JSON.parse(localStorage.getItem('tutors')) || [];
+    const registeredClasses = JSON.parse(localStorage.getItem('registeredClasses')) || [];
     const classesContainer = document.getElementById('classesContainer');
 
-    console.log('Dados carregados:', tutors); // Adicione um console.log para verificar os dados carregados
+    console.log('Dados carregados:', tutors);
 
     if (tutors.length === 0) {
         classesContainer.innerHTML = '<p>Nenhuma aula disponível no momento.</p>';
@@ -29,11 +30,17 @@ function loadAvailableClasses() {
 
         classesContainer.appendChild(classElement);
         const registerButton = document.getElementById(`register-${index}`);
-        if (tutor.slots === 0) {
+        
+        if (registeredClasses.includes(index)) {
             registerButton.disabled = true;
-            registerButton.style.backgroundColor = '#ccc'; // Muda a cor do botão
-            registerButton.style.color = '#000'; // Muda a cor do texto do botão
-            registerButton.innerText = 'Vagas Esgotadas'; // Muda o texto do botão
+            registerButton.style.backgroundColor = '#ccc'; 
+            registerButton.style.color = '#000'; 
+            registerButton.innerText = 'Já cadastrado'; 
+        } else if (tutor.slots === 0) {
+            registerButton.disabled = true;
+            registerButton.style.backgroundColor = '#ccc'; 
+            registerButton.style.color = '#000'; 
+            registerButton.innerText = 'Vagas Esgotadas';  
         }
     });
 }

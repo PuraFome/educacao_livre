@@ -20,8 +20,6 @@ function initializeForm() {
             tutors.push(data);
             localStorage.setItem('tutors', JSON.stringify(tutors));
 
-            console.log('Dados salvos:', tutors); // Adicione um console.log para verificar os dados salvos
-
             alert('Cadastro realizado com sucesso!');
             form.reset();
         });

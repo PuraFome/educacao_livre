@@ -120,7 +120,7 @@ button:hover {
 }
 
 .class-card {
-    background-color: #FFFFFF; /* Branco */
+    background-color: #FFFFFF; 
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -167,14 +167,14 @@ button:hover {
 }
 
 #hero {
-    background: #3498DB; /* Azul Claro */
-    color: #FFFFFF; /* Branco */
+    background: #3498DB; 
+    color: #FFFFFF; 
     padding: 60px 20px;
 }
 
 #about, #courses, #how-it-works, #creator {
-    background: #FFFFFF; /* Branco */
-    color: #2C3E50; /* Azul Escuro */
+    background: #FFFFFF; 
+    color: #2C3E50; 
     padding: 40px 20px;
     margin: 20px 0;
     border-radius: 8px;
@@ -187,8 +187,8 @@ button:hover {
 }
 
 #courses ul li {
-    background: #3498DB; /* Azul Claro */
-    color: #FFFFFF; /* Branco */
+    background: #3498DB; 
+    color: #FFFFFF; 
     padding: 10px;
     margin: 5px 0;
     border-radius: 4px;
@@ -204,7 +204,7 @@ button:hover {
 }
 
 #creator ul li a {
-    color: #3498DB; /* Azul Claro */
+    color: #3498DB; 
     text-decoration: none;
 }
 

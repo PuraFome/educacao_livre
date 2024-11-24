@@ -4,10 +4,8 @@ function loadPage(page) {
         .then(html => {
             document.getElementById('content').innerHTML = html;
             if (page === 'available_classes') {
-                // Aguarde o DOM ser atualizado antes de chamar a função
                 setTimeout(loadAvailableClasses, 0);
             }else if (page === 'tutor_register') {
-                // Carregue o script form.js dinamicamente
                 console.log('Carregando o script form.js');
                 initializeForm();
             }
