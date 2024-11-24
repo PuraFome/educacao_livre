@@ -2,6 +2,10 @@
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
+## Você também pode acessar o projeto através do GitHub Pages no seguinte link:
+
+https://purafome.github.io/educacao_livre/
+
 ## Índice
 
 * [Descrição do Projeto](#descrição-do-projeto)
