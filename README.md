@@ -4,7 +4,7 @@
 
 ## Você também pode acessar o projeto através do GitHub Pages no seguinte link:
 
-[https://purafome.github.io/educacao_livre/](https://purafome.github.io/educacao_livre/) _(Abra em uma nova guia)_
+<a href="https://purafome.github.io/educacao_livre/" target="_blank">github pages</a>
 
 ## Índice
 
@@ -42,8 +42,8 @@ A estrutura do projeto ainda está em definição, mas será desenvolvida utiliz
 ### Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-- [Git](https://git-scm.com)
-- [Docker (opcional)](https://www.docker.com/get-started)
+- <a href="https://git-scm.com" target="_blank">Git</a>
+- <a href="https://www.docker.com/get-started" target="_blank">Docker (opcional)</a>
 
 ### Rodando o projeto
 
@@ -85,5 +85,5 @@ Agora você pode acessar o projeto em [http://localhost:8080](http://localhost:8
 ## Integrantes da Equipe
 
 - José Samuel Pereira
-- [Linkedin](https://www.linkedin.com/in/jos%C3%A9-samuel-pereira-6890a9247/)
+- <a href="https://www.linkedin.com/in/jos%C3%A9-samuel-pereira-6890a9247/" target="_blank">Linkedin</a>
 
