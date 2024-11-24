@@ -4,7 +4,7 @@
 
 ## Você também pode acessar o projeto através do GitHub Pages no seguinte link:
 
-https://purafome.github.io/educacao_livre/
+[https://purafome.github.io/educacao_livre/](https://purafome.github.io/educacao_livre/) _(Abra em uma nova guia)_
 
 ## Índice
 
