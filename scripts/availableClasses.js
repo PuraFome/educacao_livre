@@ -17,7 +17,7 @@ function loadAvailableClasses() {
         classElement.classList.add('class-card');
 
         classElement.innerHTML = `
-            <h3>${tutor.subject}</h3>
+            <h2><strong>${tutor.subject}</strong></h2>
             <p><strong>Tutor:</strong> ${tutor.name}</p>
             <p><strong>Email:</strong> ${tutor.email}</p>
             <p><strong>Horário:</strong> ${tutor.start_time} - ${tutor.end_time}</p>
