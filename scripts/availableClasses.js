@@ -23,14 +23,14 @@ function loadAvailableClasses() {
             <p><strong>Horário:</strong> ${tutor.start_time} - ${tutor.end_time}</p>
             <p><strong>Dias:</strong> ${tutor.days.join(', ')}</p>
             <p><strong>Vagas:</strong> <span id="slots-${index}">${tutor.slots}</span></p>
-            <p><strong>Link:</strong> <a href="${tutor.meeting_link}" target="_blank">${tutor.link}</a></p>
+            <p><strong>Link:</strong> <a href="${tutor.meeting_link}" target="_blank">${tutor.meeting_link}</a></p>
             <p><strong>Descrição:</strong> ${tutor.description}</p>
             <button id="register-${index}" onclick="openModal(${index})">Cadastrar</button>
         `;
 
         classesContainer.appendChild(classElement);
         const registerButton = document.getElementById(`register-${index}`);
-        
+
         if (registeredClasses.includes(index)) {
             registerButton.disabled = true;
             registerButton.style.backgroundColor = '#ccc'; 
