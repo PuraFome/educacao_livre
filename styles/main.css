@@ -165,3 +165,49 @@ button:hover {
     text-decoration: none;
     cursor: pointer;
 }
+
+#hero {
+    background: #3498DB; /* Azul Claro */
+    color: #FFFFFF; /* Branco */
+    padding: 60px 20px;
+}
+
+#about, #courses, #how-it-works, #creator {
+    background: #FFFFFF; /* Branco */
+    color: #2C3E50; /* Azul Escuro */
+    padding: 40px 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#courses ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#courses ul li {
+    background: #3498DB; /* Azul Claro */
+    color: #FFFFFF; /* Branco */
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+}
+
+#creator ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#creator ul li {
+    margin: 5px 0;
+}
+
+#creator ul li a {
+    color: #3498DB; /* Azul Claro */
+    text-decoration: none;
+}
+
+#creator ul li a:hover {
+    text-decoration: underline;
+}
