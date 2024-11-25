@@ -169,7 +169,7 @@ button:hover {
 #hero {
     background: #3498DB; 
     color: #FFFFFF; 
-    padding: 60px 20px;
+    padding:20px;
 }
 
 #about, #courses, #how-it-works, #creator {
