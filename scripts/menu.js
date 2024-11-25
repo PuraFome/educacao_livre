@@ -4,9 +4,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const header = document.querySelector('header');
     const main = document.querySelector('main');
 
-    menuToggle.addEventListener('click', () => {
+    const toggleMenu = () => {
         navLinks.classList.toggle('expanded');
         header.classList.toggle('expanded');
         main.classList.toggle('shifted');
-    });
+    };
+
+    menuToggle.addEventListener('click', toggleMenu);
 });

@@ -127,6 +127,10 @@ button:hover {
     text-align: left;
 }
 
+.class-card a {
+    word-break: break-all;
+}
+
 /* Estilos para o modal */
 .modal {
     display: none;
@@ -246,4 +250,33 @@ body.dark-theme #creator ul li a {
 body.dark-theme #hero {
     background: #2C3E50;
     color: #ECF0F1;
+}
+
+body.dark-theme #tutorForm {
+    background-color: #2C3E50;
+    color: #ECF0F1;
+}
+
+body.dark-theme #tutorForm input,
+body.dark-theme #tutorForm textarea {
+    background-color: #34495E;
+    color: #ECF0F1;
+    border: 1px solid #555;
+}
+
+body.dark-theme #tutorForm button {
+    background-color: #27AE60;
+    color: #ECF0F1;
+}
+
+body.dark-theme #tutorForm button:hover {
+    background-color: #2ECC71;
+}
+
+body.dark-theme #tutorForm #meeting_link {
+    color: #5DADE2; /* Azul claro */
+}
+
+body.dark-theme .meeting-link {
+    color: #5DADE2; /* Azul claro */
 }
