@@ -253,28 +253,28 @@ body.dark-theme #hero {
 }
 
 body.dark-theme #tutorForm {
-    background-color: #2C3E50;
-    color: #ECF0F1;
+    background-color: #2C3E50 !important;
+    color: #ECF0F1 !important;
 }
 
 body.dark-theme #tutorForm input,
 body.dark-theme #tutorForm textarea {
-    background-color: #34495E;
-    color: #ECF0F1;
-    border: 1px solid #555;
+    background-color: #34495E !important;
+    color: #ECF0F1 !important;
+    border: 1px solid #555 !important;
 }
 
 body.dark-theme #tutorForm button {
-    background-color: #27AE60;
-    color: #ECF0F1;
+    background-color: #27AE60 !important;
+    color: #ECF0F1 !important;
 }
 
 body.dark-theme #tutorForm button:hover {
-    background-color: #2ECC71;
+    background-color: #2ECC71 !important;
 }
 
 body.dark-theme #tutorForm #meeting_link {
-    color: #5DADE2; /* Azul claro */
+    color: #5DADE2 !important; /* Azul claro */
 }
 
 body.dark-theme .meeting-link {
