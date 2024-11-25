@@ -90,6 +90,12 @@
         left: 10px;
     }
 
+    #theme-toggle {
+        position: fixed;
+        top: 1%;
+        right: 10%;
+    }
+
 }
 
 /* Estilos para tablets */
@@ -139,6 +145,12 @@
     button {
         font-size: 1.2em;
     }
+
+    #theme-toggle {
+        position: absolute;
+        top: 1%;
+        right: 10%;
+    }
 }
 
 /* Estilos para desktops */
@@ -187,5 +199,11 @@
 
     button {
         font-size: 1.5em;
+    }
+
+    #theme-toggle {
+        position: absolute;
+        top: 1%;
+        right: 10%;
     }
 }

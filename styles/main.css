@@ -211,3 +211,39 @@ button:hover {
 #creator ul li a:hover {
     text-decoration: underline;
 }
+
+body.dark-theme {
+    background: linear-gradient(to bottom, #2C3E50, #34495E);
+    color: #ECF0F1;
+}
+
+body.dark-theme header,
+body.dark-theme footer {
+    background-color: #2C3E50;
+}
+
+body.dark-theme nav ul li a {
+    color: #ECF0F1;
+}
+
+body.dark-theme .class-card,
+body.dark-theme #about,
+body.dark-theme #courses,
+body.dark-theme #how-it-works,
+body.dark-theme #creator {
+    background: #34495E;
+    color: #ECF0F1;
+}
+
+body.dark-theme #courses ul li {
+    background: #2C3E50;
+}
+
+body.dark-theme #creator ul li a {
+    color: #ECF0F1;
+}
+
+body.dark-theme #hero {
+    background: #2C3E50;
+    color: #ECF0F1;
+}
