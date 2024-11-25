@@ -145,6 +145,10 @@
     body.dark-theme #tutorForm #meeting_link {
         color: #5DADE2 !important; /* Azul claro */
     }
+
+    body.dark-theme #tutorForm input[type="time"]::-webkit-calendar-picker-indicator {
+        filter: invert(1);
+    }
 }
 
 /* Estilos para tablets */

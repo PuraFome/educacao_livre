@@ -280,3 +280,7 @@ body.dark-theme #tutorForm #meeting_link {
 body.dark-theme .meeting-link {
     color: #5DADE2; /* Azul claro */
 }
+
+body.dark-theme #tutorForm input[type="time"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
