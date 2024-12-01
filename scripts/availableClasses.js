@@ -43,7 +43,7 @@ const updateRegisterButtonState = (index, slots, registeredClasses) => {
         registerButton.style.backgroundColor = '#ccc';
         registerButton.style.color = '#000';
         registerButton.innerText = 'Já cadastrado';
-    } else if (slots === 0) {
+    } else if (slots == 0) {
         registerButton.disabled = true;
         registerButton.style.backgroundColor = '#ccc';
         registerButton.style.color = '#000';
