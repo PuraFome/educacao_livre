@@ -237,6 +237,7 @@ body.dark-theme #courses,
 body.dark-theme #how-it-works,
 body.dark-theme #creator {
     background: #34495E;
+    color: #FFFFFF;
 }
 
 body.dark-theme #tutorForm input,
