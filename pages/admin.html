@@ -1,0 +1,16 @@
+<section>
+    <h1>Administração</h1>
+    <form id="userForm" onsubmit="handleFormSubmit(event)">
+        <label for="username">Nome do Usuário:</label>
+        <input type="text" id="username" name="username" required placeholder="Digite o nome do usuário">
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required placeholder="Digite o e-mail do usuário">
+        <button type="submit">Cadastrar</button>
+        <button type="button" id="clearForm">Limpar</button>
+    </form>
+    <div class="search-box">
+        <input type="text" id="search" placeholder="Pesquisar..." oninput="searchUsers(this.value)">
+        <ul id="userList"></ul>
+        <button id="clearAll" onclick="clearAllUsers()">Excluir Todos</button>
+    </div>
+</section>

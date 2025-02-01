@@ -7,6 +7,8 @@ const loadPage = (page) => {
                 setTimeout(loadAvailableClasses, 0);
             } else if (page === 'tutor_register') {
                 initializeForm();
+            } else if (page === 'admin') {
+                initializeAdmin();
             }
         })
         .catch(error => {
@@ -22,7 +24,8 @@ const router = () => {
     const routes = {
         '': 'home',
         'tutor_register': 'tutor_register',
-        'available_classes': 'available_classes'
+        'available_classes': 'available_classes',
+        'admin': 'admin'
     };
 
     loadPage(routes[route] || 'home');
